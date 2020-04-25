@@ -1,0 +1,35 @@
+Country | City | Business Name | Address | Website | Email | Phone Number
+
+    Uk
+
+link = "https://digitalagencynetwork.com/agencies/uk/"
+
+    Uk cities
+
+cities_urls = "//a[@class='thb-child-location-btn']/@href"
+
+
+    List of Agencies Links
+
+agencies = "//a[@class='view_profile']/@href"
+
+
+    Agency Details
+# it could be a list
+
+country = "//a[@class='parent_location']/text()"
+
+city = "//a[@class='child_location']/text()"
+
+agency_name = "//h1/text()"
+
+agency address = "//div[@class='office']/ul/li[1]/text()[2]"     
+
+website = "//div[@class='section-shadow btn-pink']/a/@href"
+
+email = "//div[@class='office']/ul/li[3]/a/text()"
+
+phone = "//div[@class='office']/ul/li[2]/a/text()" 
+
+
+
